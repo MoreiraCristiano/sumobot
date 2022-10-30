@@ -46,11 +46,11 @@ void loop()
 {
   btData = Serial.parseInt();
   Serial.println(btData);
-  if (btData == 1) {
+  if (btData == 3) {
     back();
   }
 
-  if (btData == 2) {
+  if (btData == 4) {
     front();
   }
 
