@@ -40,6 +40,7 @@ void setup()
   pinMode(IN2, OUTPUT);
   pinMode(IN3, OUTPUT);
   pinMode(IN4, OUTPUT);
+  Serial.setTimeout(100);
 }
 
 void loop()
